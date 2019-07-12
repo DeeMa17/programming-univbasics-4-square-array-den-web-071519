@@ -3,9 +3,9 @@ def square_array(array)
   results_array = []
     
   while counter <= (array.length-1) do
-    numbers = array[counter]
+    current_number = array[counter]
     
-    result = numbers * numbers
+    result = current_number * current_number
     results_array[counter] = result 
     counter = counter + 1 
     end
