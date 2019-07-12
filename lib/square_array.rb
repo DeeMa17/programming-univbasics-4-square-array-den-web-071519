@@ -1,8 +1,13 @@
 def square_array(array)
   counter = 0
+  results_array = []
     
-  while counter = counter+1
-    puts counter[1*1, ]
-    counter 
-  
-end
+  while counter <= (array.length-1) do
+    current.num = array[counter]
+    
+    result = current_num * current_num
+    results_array[counter] = results 
+    counter = counter + 1 
+    end
+    results_array
+  end
