@@ -8,6 +8,6 @@ def square_array(array)
     result = current_number * current_number
     results_array[counter] = result 
     counter = counter + 1 
-    end
-    results_array
   end
+  results_array
+end
