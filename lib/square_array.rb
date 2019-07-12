@@ -6,7 +6,7 @@ def square_array(array)
     current.num = array[counter]
     
     result = current_num * current_num
-    results_array[counter] = results 
+    results_array[counter] = result 
     counter = counter + 1 
     end
     results_array
